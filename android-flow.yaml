@@ -1,0 +1,29 @@
+appId: com.loyverse.sale.debug
+---
+- launchApp
+- tapOn: Sign IN
+- tapOn: Email
+- inputText: serg@loyverse.com
+- tapOn: Password
+- inputText: loyverse777
+- tapOn: Sign In
+- tapOn: Store is not selected
+- tapOn: bar
+- tapOn: Continue
+- tapOn: POS is not selected
+- tapOn: POS 34
+- tapOn: Continue
+- extendedWaitUntil:
+    visible:
+      text: "Enter PIN"
+    timeout: 30000
+- tapOn: 0
+- tapOn: 0
+- tapOn: 0
+- tapOn: 0
+- tapOn: Continue
+- tapOn: Cake
+- tapOn: CHARGE
+- tapOn: CASH
+- tapOn: NEW SALE
+
